@@ -1,7 +1,18 @@
-{"order":["test","1","hot chocolate","chips","tea"],"_id":"9ielzx6Ptr0mvL6q"}
-{"order":["Ann","4","fish and chips","lasagne","sparkling mineral water","tea"],"_id":"S1ULNKNZb0annMZW"}
 {"order":["Joe","5","sparkling mineral water","fish and chips"],"_id":"Z0UsiuEOaWgdqxqk"}
 {"order":["Liz","2","coffee","sandwiches"],"_id":"x2uzRC5W8ekhNP26"}
-{"order":["Ali","6","hot chocolate","sandwiches"],"_id":"S5QfFxg7q1cHqgfi"}
-{"order":["","","tea","sandwiches"],"_id":"pRBpoofiEL9bOlgE"}
-{"order":["test2","4","sparkling mineral water","salad","sandwiches"],"_id":"joVVBfSB8tkpGgIf"}
+{"order":["qqq","ww","chips","sandwiches","baked potato"],"_id":"SJXdex0XAQ3fELDH"}
+{"$$deleted":true,"_id":"SJXdex0XAQ3fELDH"}
+{"order":["qq","w","coffee","baked potato","sparkling mineral water"],"_id":"88EVl1nz2pJO5qKo"}
+{"$$deleted":true,"_id":"88EVl1nz2pJO5qKo"}
+{"order":["1","q","coffee","ice cream","sandwiches"],"_id":"dHtd5Br5JkCeaGMS"}
+{"$$deleted":true,"_id":"dHtd5Br5JkCeaGMS"}
+{"$$deleted":true,"_id":"Z0UsiuEOaWgdqxqk"}
+{"order":["ss","2","hot chocolate","sandwiches","baked potato","sandwiches"],"_id":"GZDd9n6LL2AgW4vm"}
+{"order":["1","2","apple pie","coffee","baked potato"],"_id":"BOxcZhWBYPAZVl1Y"}
+{"$$deleted":true,"_id":"BOxcZhWBYPAZVl1Y"}
+{"$$deleted":true,"_id":"GZDd9n6LL2AgW4vm"}
+{"order":["1","e","hot chocolate","baked potato","lasagne"],"_id":"GHYst4TnVHacdl6X"}
+{"order":["sss","4","hot chocolate","sandwiches","baked potato"],"_id":"ZO2WKoHIhapdG2Kg"}
+{"$$deleted":true,"_id":"ZO2WKoHIhapdG2Kg"}
+{"$$deleted":true,"_id":"GHYst4TnVHacdl6X"}
+{"order":["Fred","3","tea","sparkling mineral water","fish and chips","apple pie"],"_id":"0z9ZZavK0CXUWp9Q"}

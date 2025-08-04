@@ -6,6 +6,7 @@ const passport = require("passport");
 router.get("/", controller.listMenu);
 router.get("/food", controller.listMenu);
 router.post("/addOrder", controller.addOrder);
+router.post("/deleteOrder", controller.deleteOrder);
 router.get("/new", controller.newList);
 router.get("/viewOrders", controller.listOrders);
 router.get(

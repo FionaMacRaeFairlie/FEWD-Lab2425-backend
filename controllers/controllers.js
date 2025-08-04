@@ -25,7 +25,6 @@ exports.listOrders = function (req, res) {
     .getAllEntries()
     .then((list) => {
       res.json(list);
-      //console.log(list);
     })
     .catch((err) => {
       console.log("promise rejected", err);
@@ -39,6 +38,15 @@ exports.addOrder = function (req, res) {
   res.redirect("/");
 };
 
+exports.deleteOrder = function (req, res) {
+  order.deleteEntry(req.body._id)
+  .then(console.log("item deleted"))
+  .catch((err) => {
+    console.log("promise rejected", err);
+  });
+   res.redirect("/viewOrders");
+ 
+}
 exports.processLogin = function (req, res, next) {
   db.findOne({ username: req.body.username }, { _id: 1 }, function (err, user) {
     if (!user) {
@@ -92,18 +100,18 @@ exports.displayAppData = function (req, res, next) {
   order
     .getAllEntries()
     .then((list) => {
-      let listOrders="";
+      let listOrders = "";
       list.forEach(currentOrders);
-      
+
       function currentOrders(item, index) {
         let foodOrder = item.order.slice(2, item.order.length).toString();
         console.log(foodOrder)
-        let nextOrder= index+1 +": Table number: "+ item.order[1]+ " Food ordered: " + foodOrder + "<br \>";
+        let nextOrder = index + 1 + ": Table number: " + item.order[1] + " Food ordered: " + foodOrder + "<br \>";
         console.log(nextOrder)
-        listOrders= listOrders+ nextOrder
+        listOrders = listOrders + nextOrder
       }
       console.log(listOrders);
-      
+
       res
         .status(200)
         .json({

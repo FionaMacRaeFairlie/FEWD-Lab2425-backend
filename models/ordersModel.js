@@ -40,5 +40,18 @@ class Orders {
       });
     });
   }
+  deleteEntry(id) {
+    return new Promise((resolve, reject) => {
+      this.order.remove({_id:id},{}, function (err, doc) {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(doc);
+        }
+      });
+    });
+  }
+
+
 }
 module.exports = Orders;
