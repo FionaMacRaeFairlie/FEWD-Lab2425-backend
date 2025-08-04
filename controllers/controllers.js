@@ -1,7 +1,7 @@
 const menuDAO = require("../models/menuModel");
-const menu = new menuDAO({ filename: "menu.db", autoload: true });
+const menu = new menuDAO({ filename: "./data/menu.db", autoload: true });
 const orderDAO = require("../models/ordersModel");
-const order = new orderDAO({ filename: "orders.db", autoload: true });
+const order = new orderDAO({ filename: "./data/orders.db", autoload: true });
 const utils = require("../lib/utils");
 const db = require("../config/users");
 

@@ -1,5 +1,5 @@
 const Datastore = require("gray-nedb"); 
-const db = new Datastore({ filename: "users.db", autoload: true });
+const db = new Datastore({ filename: "./data/users.db", autoload: true });
 
 module.exports = db;
 
